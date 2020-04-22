@@ -70,7 +70,7 @@ public class loginController {
         AyUser ayUser = commonService.login(name,password);
         Map map = new HashMap();
         map.put("1","1");
-        System.out.print("第一次111");
+        System.out.print("第一次哈哈");
         return  map ;
 
 //        return null;
